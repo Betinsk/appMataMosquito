@@ -19,7 +19,8 @@ ajustaTamanhoPalcoJogo()
 		if(tempo < 0) {
 			clearInterval(cronometro)
 			clearInterval(criaMosquito)
-			alert('Vitoria')
+			window.location.href = 'vitoria.html'
+
 		}
 		else {
 		document.getElementById('cronometro').innerHTML = tempo
